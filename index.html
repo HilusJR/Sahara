@@ -5,23 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Sahara</title>
         <link rel="stylesheet" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
 	</head>
-    <body>
-	<img src="img/diamond.png" id="dmnd"/>
-	<div id="container">
-		<div id="saharalogo">
-		<img id="logo" src="img/saharalogo.png"></img>
+    <body onload="start()">
+		<img src="img/diamond.png" id="dmnd"/>
+		<div id="container">
+			<div id="saharalogo">
+				<img id="logo" src="img/saharalogo.png"></img>
     		</div>
-		<div id="panel">
-			<div>What item would you like to buy?</br></div>
-			<button id="btn_choose">Choose item</button></br>
+			<div id="panel">
+				<div>What item would you like to buy?</br></div>
+				<button id="btn_choose" onclick="choose()">Choose item</button></br>
 			<div id="amount"></div>
 		</div>
-	<div id="diamonds"></div>
+		<div id="diamonds"></div>
         <div id="btn_dev"></div>
-	</div>
+		</div>
     </body>
 </html>

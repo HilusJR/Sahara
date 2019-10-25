@@ -64,7 +64,7 @@ body{
 	transform:translateY(0.5px);
 }
 
-#choose {
+#btn_buy {
 	margin-top:15%;
 	width:50%;
 	height:10%;
@@ -88,13 +88,13 @@ body{
 	font-size:3vh;
 }
 
-#choose span {
+#btn_buy span {
 	position: relative;
 	line-height: 40px;
 	bottom: 3px;
 }
 
-#choose:hover {
+#btn_buy:hover {
 	border-bottom: 4px solid #59639A;
 	border-right: 2px solid #59639A;
 	border-left: 2px solid #BDC6FF;
@@ -102,7 +102,7 @@ body{
 	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
 	color: #FFFFA0;
 }
-#choose:active{
+#btn_buy:active{
 	transform:translateY(0.5px);
 }
 #btn{
