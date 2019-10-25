@@ -22,7 +22,7 @@ body{
 	text-align:center;
 }
 
-#btn0 {
+#btn_choose {
 	margin-top:15%;
 	width:50%;
 	height:7%;
@@ -46,13 +46,13 @@ body{
 	font-size:3vh;
 }
 
-#btn0 span {
+#btn_choose span {
 	position: relative;
 	line-height: 40px;
 	bottom: 3px;
 }
 
-#btn0:hover {
+#btn_choose:hover {
 	border-bottom: 4px solid #59639A;
 	border-right: 2px solid #59639A;
 	border-left: 2px solid #BDC6FF;
@@ -60,7 +60,7 @@ body{
 	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
 	color: #FFFFA0;
 }
-#btn0:active{
+#btn_choose:active{
 	transform:translateY(0.5px);
 }
 
