@@ -1,0 +1,132 @@
+body{
+	font-family: 'MinecraftiaRegular';
+	font-weight: bold;
+	font-style: normal;
+}
+#container{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#saharalogo{
+	width:600px;
+	float:left;
+}
+#logo{
+	width:100%;
+}
+#panel{
+	width:600px;
+	float:left;
+	padding-top:10%;
+	text-align:center;
+}
+
+#btn0 {
+	margin-top:15%;
+	width:50%;
+	height:7%;
+	outline: 2px solid black;
+	position: relative;
+	display: inline-block;
+	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+	background-repeat: repeat;
+	padding: 0;
+	font-family: 'MinecraftiaRegular';
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px #4C4C4C;
+	border-bottom: 4px solid #565656;
+	border-right: 2px solid #565656;
+	border-left: 2px solid #AAA;
+	border-top: 2px solid #AAA;
+	box-sizing: border-box;
+	font-size:3vh;
+}
+
+#btn0 span {
+	position: relative;
+	line-height: 40px;
+	bottom: 3px;
+}
+
+#btn0:hover {
+	border-bottom: 4px solid #59639A;
+	border-right: 2px solid #59639A;
+	border-left: 2px solid #BDC6FF;
+	border-top: 2px solid #BDC6FF;
+	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+	color: #FFFFA0;
+}
+#btn0:active{
+	transform:translateY(0.5px);
+}
+
+#choose {
+	margin-top:15%;
+	width:50%;
+	height:10%;
+	outline: 2px solid black;
+	position: relative;
+	display: inline-block;
+	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+	background-repeat: repeat;
+	padding: 0;
+	font-family: 'MinecraftiaRegular';
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px #4C4C4C;
+	border-bottom: 4px solid #565656;
+	border-right: 2px solid #565656;
+	border-left: 2px solid #AAA;
+	border-top: 2px solid #AAA;
+	box-sizing: border-box;
+	font-size:3vh;
+}
+
+#choose span {
+	position: relative;
+	line-height: 40px;
+	bottom: 3px;
+}
+
+#choose:hover {
+	border-bottom: 4px solid #59639A;
+	border-right: 2px solid #59639A;
+	border-left: 2px solid #BDC6FF;
+	border-top: 2px solid #BDC6FF;
+	background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+	color: #FFFFA0;
+}
+#choose:active{
+	transform:translateY(0.5px);
+}
+#btn{
+    position:absolute;
+    left:1%;
+    bottom:1%;
+    width:5%;
+    height:20px;
+    background:#fff;
+	z-index:0;
+}
+#diamonds{
+    position:absolute;
+    right:2%;
+    top:1%;
+    width:5%;
+    height:20px;
+	z-index:1;
+	font-size:22px;
+}
+#dmnd{
+	position:absolute;
+	right:1%;
+	top:1%;
+	width:3%;
+	z-index:1;
+}

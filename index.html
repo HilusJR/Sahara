@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sahara</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+	</head>
+    <body onload="diamondsOnLoad(),saveProgress()">
+	<img src="img/diamond.png" id="dmnd"/>
+		<div id="container">
+		<div id="saharalogo">
+			<img id="logo" src="img/saharalogo.png"></img>
+    	</div>
+		<div id="panel">
+			<div class="text">What item would you like to buy?</br></div>
+			<button id="btn0" onclick="findAmount()">Choose item</button></br>
+			<div id="amount" class="text"></div>
+		</div>
+		<div id="diamonds"></div>
+        <div id="btn" onclick="check()"></div>
+		</div>
+    </body>
+</html>
+
+<!-- LOG 
+08.10.2019:
+- created basic back end
+- made back end cheat proof
+- added front end 
+- added data storing 
+09.10.2019
+- added autosave functionality
+-->
+		
